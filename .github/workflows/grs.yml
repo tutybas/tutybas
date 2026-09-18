@@ -13,23 +13,27 @@ jobs:
       contents: write
 
     steps:
-      - uses: actions/checkout@v6
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Create profile folder
+        run: mkdir -p profile
 
       - name: Generate stats card
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=tutybas&show_icons=true&locale=pt-br&bg_color=0D1117&title_color=FF4D8D&text_color=FFFFFF&icon_color=FF4D8D&border_color=30363D&border_radius=10
+          options: username=tutybas&show_icons=true&locale=pt-br&bg_color=0D1117&title_color=FF4D8D&text_color=FFFFFF&icon_color=FF4D8D&border_color=30363D&border_radius=12
           path: profile/stats.svg
-          token: ${{ secrets.SEU_SECRET }}
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate top languages card
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: username=tutybas&layout=compact&langs_count=8&locale=pt-br&bg_color=0D1117&title_color=FF4D8D&text_color=FFFFFF&border_color=30363D&border_radius=10
+          options: username=tutybas&layout=compact&langs_count=8&locale=pt-br&bg_color=0D1117&title_color=FF4D8D&text_color=FFFFFF&border_color=30363D&border_radius=12
           path: profile/top-langs.svg
-          token: ${{ secrets.SEU_SECRET }}
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit cards
         run: |
