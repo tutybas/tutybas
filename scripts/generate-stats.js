@@ -123,4 +123,109 @@ async function main() {
     height="194"
     rx="8"
     fill="#0D1117"
-    stroke
+        stroke="#30363D"
+  />
+
+  <style>
+    .title {
+      fill: #FF4D8D;
+      font: 600 18px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    }
+
+    .label {
+      fill: #FFFFFF;
+      font: 14px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    }
+
+    .number {
+      fill: #FFFFFF;
+      font: 600 14px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    }
+
+    .icon {
+      fill: #FF4D8D;
+      font: 15px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    }
+
+    .grade {
+      fill: #FFFFFF;
+      font: 700 30px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    }
+  </style>
+
+  <text x="25" y="32" class="title">
+    Estatísticas do GitHub de Arthur
+  </text>
+
+  <text x="25" y="68" class="icon">★</text>
+  <text x="50" y="68" class="label">Total de estrelas:</text>
+  <text x="220" y="68" class="number">${stars}</text>
+
+  <text x="25" y="96" class="icon">●</text>
+  <text x="50" y="96" class="label">Total de commits:</text>
+  <text x="220" y="96" class="number">${commits}</text>
+
+  <text x="25" y="124" class="icon">◆</text>
+  <text x="50" y="124" class="label">Repositórios:</text>
+  <text x="220" y="124" class="number">${repositoryCount}</text>
+
+  <text x="25" y="152" class="icon">◈</text>
+  <text x="50" y="152" class="label">Contribuiu para:</text>
+  <text x="220" y="152" class="number">${contributedTo}</text>
+
+  <circle
+    cx="400"
+    cy="105"
+    r="47"
+    stroke="#4A1F31"
+    stroke-width="8"
+    fill="none"
+  />
+
+  <circle
+    cx="400"
+    cy="105"
+    r="47"
+    stroke="#FF4D8D"
+    stroke-width="8"
+    fill="none"
+    stroke-linecap="round"
+    stroke-dasharray="190 110"
+    transform="rotate(-90 400 105)"
+  />
+
+  <text
+    x="400"
+    y="115"
+    text-anchor="middle"
+    class="grade"
+  >
+    ${grade}
+  </text>
+
+</svg>
+`;
+
+  fs.mkdirSync("profile", { recursive: true });
+
+  fs.writeFileSync(
+    "profile/stats.svg",
+    svg.trim()
+  );
+
+  console.log("stats.svg atualizado!");
+
+  console.log({
+    stars,
+    commits,
+    repositories: repositoryCount,
+    contributedTo,
+    score,
+    grade
+  });
+}
+
+main().catch(error => {
+  console.error(error);
+  process.exit(1);
+});
