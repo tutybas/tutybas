@@ -19,13 +19,10 @@ jobs:
       - name: Create profile folder
         run: mkdir -p profile
 
-      - name: Generate GitHub Stats
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: stats
-          options: username=tutybas&show_icons=true&locale=pt-br&bg_color=0D1117&title_color=FF4D8D&text_color=FFFFFF&icon_color=FF4D8D&border_color=30363D&border_radius=8
-          path: profile/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Generate custom stats
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/generate-stats.js
 
       - name: Generate Most Used Languages
         uses: stats-organization/github-readme-stats-action@v2
