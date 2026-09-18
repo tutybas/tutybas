@@ -19,19 +19,19 @@ jobs:
       - name: Create profile folder
         run: mkdir -p profile
 
-      - name: Generate stats card
+      - name: Generate GitHub Stats
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=tutybas&show_icons=true&locale=pt-br&bg_color=0D1117&title_color=FF4D8D&text_color=FFFFFF&icon_color=FF4D8D&border_color=30363D&border_radius=12
+          options: username=tutybas&show_icons=true&locale=pt-br&bg_color=0D1117&title_color=FF4D8D&text_color=FFFFFF&icon_color=FF4D8D&border_color=30363D&border_radius=8
           path: profile/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Generate top languages card
+      - name: Generate Most Used Languages
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: username=tutybas&layout=compact&langs_count=8&locale=pt-br&bg_color=0D1117&title_color=FF4D8D&text_color=FFFFFF&border_color=30363D&border_radius=12
+          options: username=tutybas&layout=compact&langs_count=8&locale=pt-br&bg_color=0D1117&title_color=FF4D8D&text_color=FFFFFF&border_color=30363D&border_radius=8
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
