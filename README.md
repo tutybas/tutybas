@@ -1,141 +1,66 @@
+<h1>Oii! Eu sou o <span style="color:#ff4d8d">Arthur Xavier</span> 👋</h1>
+
+<p>Estudante de ADS | Apaixonado por TI</p>
+
 <div align="center">
-
-# Oii! Eu sou o Arthur 👋
-
-### Estudante de ADS | Apaixonado por TI
-
-<img
-  src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=FF4D8D&center=true&vCenter=true&width=600&lines=Estudando+e+evoluindo+um+dia+de+cada+vez.;Transformando+caf%C3%A9+em+c%C3%B3digo+%E2%98%95;CODE+%E2%80%A2+CREATE+%E2%80%A2+EVOLVE"
-/>
-
-<br><br>
-
-<img
-  height="180em"
-  src="./profile/stats.svg"
-/>
-&nbsp;&nbsp;
-<img
-  height="180em"
-  src="./profile/top-langs.svg"
-/>
-
+  <img height="180em" src="./profile/stats.svg"/>
+  <img height="180em" src="./profile/top-langs.svg"/>
 </div>
 
 <br>
 
----
+<h3>💻 Tecnologias que utilizo</h3>
 
-<h2 align="center">⚔️ Tecnologias</h2>
-
-<br>
-
-<div align="center">
-
-<img
-  alt="HTML"
-  height="55"
-  width="55"
-  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
-/>
-
-&nbsp;&nbsp;&nbsp;&nbsp;
-
-<img
-  alt="Java"
-  height="55"
-  width="55"
-  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg"
-/>
-
-&nbsp;&nbsp;&nbsp;&nbsp;
-
-<img
-  alt="Python"
-  height="55"
-  width="55"
-  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
-/>
-
-&nbsp;&nbsp;&nbsp;&nbsp;
-
-<img
-  alt="C++"
-  height="55"
-  width="55"
-  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg"
-/>
-
-</div>
-
-<br><br>
-
-<div align="center">
-
-`HTML` • `JAVA` • `PYTHON` • `C++`
-
-</div>
-
-<br>
-
----
-
-<h2 align="center">🌐 Me encontre por aqui</h2>
-
-<br>
-
-<div align="center">
-
-<a href="https://www.instagram.com/aox.exe">
+<div>
   <img
-    src="https://img.shields.io/badge/INSTAGRAM-FF4D8D?style=for-the-badge&logo=instagram&logoColor=white"
+    alt="HTML"
+    height="40"
+    width="50"
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
   />
-</a>
 
-&nbsp;
-
-<a href="https://www.linkedin.com/in/arthur-xavier-133337350/">
   <img
-    src="https://img.shields.io/badge/LINKEDIN-FF4D8D?style=for-the-badge&logo=linkedin&logoColor=white"
+    alt="Java"
+    height="40"
+    width="50"
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg"
   />
-</a>
 
-&nbsp;
-
-<a href="mailto:arthur.almeida.oliveira.xavier@gmail.com">
   <img
-    src="https://img.shields.io/badge/GMAIL-FF4D8D?style=for-the-badge&logo=gmail&logoColor=white"
+    alt="Python"
+    height="40"
+    width="50"
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
   />
-</a>
 
+  <img
+    alt="C++"
+    height="40"
+    width="50"
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg"
+  />
 </div>
 
 <br>
 
----
+<h3>🌐 Me encontre por aqui</h3>
 
-<div align="center">
+<div>
+  <a href="https://www.instagram.com/aox.exe">
+    <img
+      src="https://img.shields.io/badge/INSTAGRAM-FF4D8D?style=for-the-badge&logo=instagram&logoColor=white"
+    />
+  </a>
 
-### 🌸 Um pouco sobre mim
+  <a href="https://www.linkedin.com/in/arthur-xavier-133337350/">
+    <img
+      src="https://img.shields.io/badge/LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"
+    />
+  </a>
 
-🎓 Estudante de **Análise e Desenvolvimento de Sistemas**
-
-💻 Explorando novas tecnologias e construindo meus projetos
-
-⚔️ Sempre buscando evoluir um pouco mais
-
-<br>
-
-> *"Um passo de cada vez, ainda é um passo."*
-
-<br>
-
-<img
-  src="https://capsule-render.vercel.app/api?type=rect&height=2&color=FF4D8D&section=footer&width=100%"
-/>
-
-<br>
-
-### `⚔ CODE • CREATE • EVOLVE ⚔`
-
+  <a href="mailto:arthur.almeida.oliveira.xavier@gmail.com">
+    <img
+      src="https://img.shields.io/badge/GMAIL-252525?style=for-the-badge&logo=gmail&logoColor=white"
+    />
+  </a>
 </div>
