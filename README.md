@@ -1,1 +1,1 @@
- ![Stats](./profile/stats.svg)
+![Stats](./profile/stats.svg)
