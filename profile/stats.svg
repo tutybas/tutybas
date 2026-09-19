@@ -57,7 +57,7 @@
 
   <text x="25" y="124" class="icon">◆</text>
   <text x="50" y="124" class="label">Repositórios:</text>
-  <text x="220" y="124" class="number">8</text>
+  <text x="220" y="124" class="number">9</text>
 
   <text x="25" y="152" class="icon">◈</text>
   <text x="50" y="152" class="label">Contribuiu para:</text>
@@ -90,7 +90,7 @@
     text-anchor="middle"
     class="grade"
   >
-    B
+    B+
   </text>
 
 </svg>
