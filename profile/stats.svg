@@ -53,11 +53,11 @@
 
   <text x="25" y="96" class="icon">●</text>
   <text x="50" y="96" class="label">Total de commits:</text>
-  <text x="220" y="96" class="number">64</text>
+  <text x="220" y="96" class="number">67</text>
 
   <text x="25" y="124" class="icon">◆</text>
   <text x="50" y="124" class="label">Repositórios:</text>
-  <text x="220" y="124" class="number">11</text>
+  <text x="220" y="124" class="number">12</text>
 
   <text x="25" y="152" class="icon">◈</text>
   <text x="50" y="152" class="label">Contribuiu para:</text>
