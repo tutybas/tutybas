@@ -53,7 +53,7 @@
 
   <text x="25" y="96" class="icon">●</text>
   <text x="50" y="96" class="label">Total de commits:</text>
-  <text x="220" y="96" class="number">67</text>
+  <text x="220" y="96" class="number">66</text>
 
   <text x="25" y="124" class="icon">◆</text>
   <text x="50" y="124" class="label">Repositórios:</text>
